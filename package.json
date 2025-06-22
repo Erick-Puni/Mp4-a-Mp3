@@ -1,0 +1,15 @@
+{
+  "name": "mp4-to-mp3-batch",
+  "version": "1.0.0",
+  "description": "Conversión masiva de MP4 a MP3 preservando estructura de carpetas y generando ZIP",
+  "main": "convert.js",
+  "scripts": {
+    "convert": "node convert.js ./uploads ./converted 2"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "p-limit": "^3.1.0",
+    "archiver": "^5.3.1"
+  }
+}
